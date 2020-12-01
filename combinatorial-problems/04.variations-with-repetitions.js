@@ -1,4 +1,4 @@
-function variationsWithoutRepetitions(arr, k){
+function variationsWithRepetitions(arr, k){
 
     const result = Array(k);
     variations(0);
@@ -15,5 +15,5 @@ function variationsWithoutRepetitions(arr, k){
     }
 }
 
-variationsWithoutRepetitions(['A', 'B', 'C'], 2);
-variationsWithoutRepetitions(['A', 'B', 'C', 'D'], 2);
+variationsWithRepetitions(['A', 'B', 'C'], 2);
+variationsWithRepetitions(['A', 'B', 'C', 'D'], 2);
