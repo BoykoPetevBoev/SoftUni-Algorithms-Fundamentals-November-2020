@@ -18,6 +18,6 @@ function permutationWithoutRepetitions(arr) {
     }
 }
 
-// permutationWithoutRepetitions(['A', 'B']);
+permutationWithoutRepetitions(['A', 'B']);
 permutationWithoutRepetitions(['A', 'B', 'C']);
-// permutationWithoutRepetitions(['A', 'B', 'C', 'D']);
+permutationWithoutRepetitions(['A', 'B', 'C', 'D']);
