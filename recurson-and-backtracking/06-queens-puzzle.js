@@ -56,4 +56,4 @@ function queensPuzzle(n) {
     }
 }
 
-queensPuzzle(8)
+queensPuzzle(5)

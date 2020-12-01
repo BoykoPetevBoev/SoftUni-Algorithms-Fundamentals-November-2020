@@ -5,7 +5,7 @@ function permutationWithoutRepetitions(arr) {
 
     function permutation(index) {
         if (index >= arr.length) {
-            console.log(result);
+            console.log(result.join(' '));
             return;
         }
         for (let i = 0; i < arr.length; i++) {
@@ -18,6 +18,6 @@ function permutationWithoutRepetitions(arr) {
     }
 }
 
-permutationWithoutRepetitions(['A', 'B']);
+// permutationWithoutRepetitions(['A', 'B']);
 permutationWithoutRepetitions(['A', 'B', 'C']);
-permutationWithoutRepetitions(['A', 'B', 'C', 'D']);
+// permutationWithoutRepetitions(['A', 'B', 'C', 'D']);
