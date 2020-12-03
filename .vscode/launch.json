@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\recursion-and-combinatorial-algorithms\\02.nested-loops-to-recursion.js"
+            "program": "${workspaceFolder}"
         }
     ]
 }
