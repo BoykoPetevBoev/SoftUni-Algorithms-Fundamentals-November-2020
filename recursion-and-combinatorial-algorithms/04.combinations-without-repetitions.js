@@ -11,8 +11,9 @@ function combinationsWithRepetitions(n, k){
         }
         
         for(let i = start; i < n; i++) {
+
                 arr[index] = i + 1;
-                combinations(index + 1, i);
+                combinations(index + 1, i + 1);
         }
     }
 }
